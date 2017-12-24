@@ -96,25 +96,14 @@ namespace Aplikacija_03
             TimerLabel.Text = increment.ToString();
         }
 
-
-
         private void Validation(object sender, RoutedEventArgs e)
         {
             var c = ConfigurationManager.ConnectionStrings["sqlBaza"].ConnectionString;
             SqlConnection vid = new SqlConnection(c);
-
-
-
-
-
-
-
-
         }
     }
 
 }
-
 
 
 //TEMP CODE

@@ -8,11 +8,11 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("WorkerControl")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("App  to gather worker input data.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("rg-adguard")]
+[assembly: AssemblyCompany("AE")]
 [assembly: AssemblyProduct("WorkerControl")]
-[assembly: AssemblyCopyright("Copyright © rg-adguard 2017")]
+[assembly: AssemblyCopyright("Copyright © AE 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
