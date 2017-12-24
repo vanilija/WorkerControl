@@ -1,0 +1,17 @@
+﻿<Window x:Class="Aplikacija_03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aplikacija_03"
+        mc:Ignorable="d"
+        Title="Login Forma" Height="463.5" Width="852" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Grid Background="orange">
+        <Label Content="Unesite VAŠ ID:" HorizontalAlignment="Left" Margin="166,33,0,0" VerticalAlignment="Top" FontSize="28" Width="253" FontWeight="Bold"/>
+
+        <Button Name="Unos" Content="ULAZ" HorizontalAlignment="Left" Margin="45,257,0,0" VerticalAlignment="Top" Width="454" RenderTransformOrigin="-0.026,0.37" Height="182" FontSize="48" Click="Button_Click" />
+        <TextBox Name="Operater" HorizontalAlignment="Left" Height="119" Margin="166,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" FontSize="80" TextAlignment="Center"/>
+        <Image Margin="566,17,28,25" Source="worker.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
